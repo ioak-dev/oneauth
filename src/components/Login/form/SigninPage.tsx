@@ -178,6 +178,17 @@ const SigninPage = (props: Props) => {
   };
 
   const resendActivationLink = () => {
+    let baseAuthUrl = `/auth/${props.loginType}`;
+    if (props.space) {
+      baseAuthUrl = `${baseAuthUrl}/${props.space}`;
+    }
+    httpPost(
+      `${baseAuthUrl}/emailconfirmationlink`,
+      {
+        email: data.email.trim().toLowerCase(),
+      },
+      null
+    );
     setEmailConfirmationLink('showSent');
   };
 

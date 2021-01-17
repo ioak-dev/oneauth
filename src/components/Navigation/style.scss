@@ -331,3 +331,9 @@
     }
   }
 }
+
+.error-text {
+  display: flex;
+  align-items: center;
+  color: var(--color-warning);
+}
