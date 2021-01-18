@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat|Lato|Open+Sans|Open+Sans+Condensed:300&display=swap');
+
 a {
   text-decoration: none;
   color: var(--color-primary-1);
@@ -8,19 +10,19 @@ a {
   color: var(--color-foreground-1);
 }
 
-::-webkit-scrollbar {
-  width: 6px; /* for vertical scrollbars */
-  height: 6px; /* for horizontal scrollbars */
-}
+// ::-webkit-scrollbar {
+//   width: 6px; /* for vertical scrollbars */
+//   height: 6px; /* for horizontal scrollbars */
+// }
 
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
-  background: var(--color-foreground-1);
-}
+// ::-webkit-scrollbar-track {
+//   background: rgba(0, 0, 0, 0.1);
+//   background: var(--color-foreground-1);
+// }
 
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3);
-}
+// ::-webkit-scrollbar-thumb {
+//   background: rgba(0, 0, 0, 0.3);
+// }
 
 .App {
   width: 100%;

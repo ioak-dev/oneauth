@@ -1,0 +1,27 @@
+.health-check-failed {
+  background: url('../../images/healthcheck_bg1.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-items: center;
+
+  .health-check-failed--logo {
+    padding: 10px 0;
+  }
+
+  .health-check-failed--message {
+    max-width: 700px;
+    padding: 0 10px;
+    display: flex;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
+  }
+}

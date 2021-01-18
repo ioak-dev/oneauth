@@ -16,6 +16,7 @@ interface Props {
 }
 
 const ChangePassword = (props: Props) => {
+  const loginType = 'appspace';
   const authorization = useSelector(state => state.authorization);
   const [data, setData] = useState({
     oldpassword: '',
@@ -37,7 +38,7 @@ const ChangePassword = (props: Props) => {
 
   const changePassword = event => {
     event.preventDefault();
-    const baseAuthUrl = `/auth/${props.space}`;
+    const baseAuthUrl = `/auth/${loginType}/${props.space}`;
     const errorState = {
       oldpassword: '',
       password: '',

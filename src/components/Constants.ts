@@ -30,6 +30,7 @@ const constants = {
   API_APP_DELETE: '/app/delete',
   API_ROLE_FETCH: '/role',
   API_PERMITTED_SPACE: '/permittedspace',
+  API_HEALTHCHECK_HELLO: '/healthcheck/hello',
 };
 
 export default constants;

@@ -2,7 +2,7 @@
   "name": "oneauth",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oneauth.ioak.org",
+  "homepage": "https://app.oneauth.ioak.io",
   "dependencies": {
     "@material-ui/core": "^4.2.0",
     "@types/jest": "^25.1.3",

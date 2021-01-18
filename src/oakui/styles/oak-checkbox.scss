@@ -2,6 +2,7 @@
   --ocb-variant-radius: 4px;
   --ocb-theme-bg: var(--color-default);
   user-select: none;
+  padding: 10px 0;
 
   &.circle {
     --ocb-variant-radius: 50%;

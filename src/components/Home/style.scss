@@ -1,9 +1,26 @@
 .page-home {
   height: 100vh;
   // CHANGETBD uncomment below two lines
-  background: url('../../images/1.svg') no-repeat center center;
-  background-size: cover;
-  padding: 50px;
+  // background: url('../../images/1.svg') no-repeat center center;
+  // background-size: cover;
+  // margin: auto;
+  padding-top: 100px;
+  display: grid;
+  align-content: flex-start;
+  padding-left: 20px;
+  grid-auto-flow: row;
+  row-gap: 20px;
+
+  .page-home--title {
+    border-left: 6px solid var(--color-primary-1);
+    padding: 10px 10px;
+    font-size: 30px;
+    max-width: 800px;
+  }
+
+  .page-home--subtitle {
+    max-width: 800px;
+  }
 
   // display: grid;
   // grid-template-rows: 1fr 1fr;

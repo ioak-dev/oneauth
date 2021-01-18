@@ -99,7 +99,7 @@ const Navigation = (props: Props) => {
   };
 
   const logout = () => {
-    let baseAuthUrl = '/auth';
+    let baseAuthUrl = '/auth/oa';
     let authKey = props.cookies.get('oneauth');
     if (space) {
       authKey = props.cookies.get(space);
